@@ -254,9 +254,6 @@
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/libxamarin-dotnet-nativeaot.a
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/libxamarin-dotnet.a
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/libxamarin-dotnet.dylib
-/Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.HotReload.Forms.dll
-/Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-/Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.TapContract.dll
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mauiimage.inputs
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mauifont.inputs
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mauisplash.inputs
@@ -302,3 +299,8 @@
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/HewTU.pdb
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/HewTU.genruntimeconfig.cache
 /Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/HewTU.dll
+/Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/HewTU.sourcelink.json
+/Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.HotReload.Forms.dll
+/Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+/Users/aueyeay/Projects/DX212/HewTU/HewTU/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.TapContract.dll
+/Users/aueyeay/Projects/DX212/HewTU/HewTU/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resizetizer/r/Resources/steak.jpeg

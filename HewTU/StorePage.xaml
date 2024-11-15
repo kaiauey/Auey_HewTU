@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HewTU.StorePage"
+             Title="Hew TU">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+                        <RowDefinition  Height="*"></RowDefinition>
+                        <RowDefinition  Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <BoxView Grid.Row="0" BackgroundColor="FloralWhite"></BoxView>
+                <BoxView Grid.Row="1" BackgroundColor="#FFFBD0EB"></BoxView>
+
+       
+        
+    <VerticalStackLayout Spacing="10" Padding="20">
+        <Border StrokeShape="RoundRectangle 20">
+            <SearchBar Placeholder="What would you like to eat?" BackgroundColor="#FFFFFAB2"></SearchBar>
+        </Border>
+
+        <Grid ColumnDefinitions="*,*"></Grid>
+            <Label Grid.Column="1" Text="See More >" TextColor="gray" TextDecorations="Underline" HorizontalOptions="End" VerticalOptions="End"></Label>
+
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" RowSpacing="20" ColumnSpacing="20" Padding="20">
+            <Border Grid.Column="0" Grid.Row="0" StrokeShape="RoundRectangle 20"
+                                    StrokeThickness="0"
+                                    FlexLayout.Basis="50%"
+                                    BackgroundColor="#FFFFFAB2"
+                                    VerticalOptions="End"
+                                    HorizontalOptions="Start">
+                                    
+                    <ImageButton Source="dotnet_bot"></ImageButton>
+            </Border>
+
+            <Border Grid.Column="0" Grid.Row="1" StrokeShape="RoundRectangle 20"
+                                    StrokeThickness="0"
+                                    FlexLayout.Basis="50%"
+                                    BackgroundColor="#FFFFFAB2"
+                                    VerticalOptions="End"
+                                    HorizontalOptions="Start">
+                                    
+                    <ImageButton Source="dotnet_bot"></ImageButton>
+            </Border>
+
+            <Border Grid.Column="1" Grid.Row="0" StrokeShape="RoundRectangle 20"
+                                    StrokeThickness="0"
+                                    FlexLayout.Basis="50%"
+                                    BackgroundColor="#FFFFFAB2"
+                                    VerticalOptions="End"
+                                    HorizontalOptions="Start">
+                                    
+                    <ImageButton Source="dotnet_bot"></ImageButton>
+            </Border>
+
+            <Border Grid.Column="1" Grid.Row="1" StrokeShape="RoundRectangle 20"
+                                    StrokeThickness="0"
+                                    FlexLayout.Basis="50%"
+                                    BackgroundColor="#FFFFFAB2"
+                                    VerticalOptions="End"
+                                    HorizontalOptions="Start">
+                                    
+                    <ImageButton Source="dotnet_bot"></ImageButton>
+            </Border>
+        </Grid>
+    </VerticalStackLayout>
+    </Grid>
+</ContentPage>

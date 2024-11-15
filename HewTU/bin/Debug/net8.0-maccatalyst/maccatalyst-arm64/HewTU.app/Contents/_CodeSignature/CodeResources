@@ -44,6 +44,10 @@
 		<data>
 		Zt+VE+uuJQUze/d9zd3r+NdrtDw=
 		</data>
+		<key>Resources/steak.jpeg</key>
+		<data>
+		LWd31IX7j61AvNJSPPcFfgWoQM4=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -51,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bPSPFWBGYdy+0g12SKnIWrVaik6hTkjoFu5bLqv9e2U=
+			efM/VuI7O/AuYJ7fboO8LkuwHW5RSUoECRNHV6oIbfQ=
 			</data>
 		</dict>
 		<key>MonoBundle/HewTU.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/pqbKgBlTf29UL+BRib2nvMSw5c13bjGl7grzqeyd+s=
+			BNvOUoZOgRYCA3jT43MNxLNpGZR0cvLLVYy8IFeBD1E=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -156,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			44GU/1+DJzLiyfdpmd3z6aQaCi0AXozuz6DuoDoTwNE=
+			qpflHyBa+MRKZd8V0BQh5Fhv7ga/eHyftWhURAstH7k=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Controls.Xaml.dll</key>
@@ -212,14 +216,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bKphDSQjgkjA9FYGZNqIn5vQYWQX7L/VPEN8jqRRd+g=
+			WxGYaDvW4BvcJZKgH2Ti8i6yzRQpycpozHxR6gt9CCU=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.VisualStudio.DesignTools.TapContract.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SVllLmIWcWiR7rAIZzHR+151Ngnme94U4zDpt7o7OIE=
+			PsCdURiM3cm7GxmjLqQUt/smxvdq8M3ImdiekPP7PMg=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Win32.Primitives.dll</key>
@@ -1711,6 +1715,13 @@
 			<key>hash2</key>
 			<data>
 			Up4t4C3+oRoTqJRc+zJSfhbhdg8R3zWbHkE+G9N4B9U=
+			</data>
+		</dict>
+		<key>Resources/steak.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oLH3DnbIZ5vfKfPdpSmf+pGq2PmzO7tFM41TydIiKFk=
 			</data>
 		</dict>
 	</dict>
