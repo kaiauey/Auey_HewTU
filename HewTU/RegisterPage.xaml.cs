@@ -6,4 +6,11 @@ public partial class RegisterPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnRegisterButtonClicked(object sender, EventArgs e)
+    {
+		await Navigation.PushAsync(new StorePage());
+    }
+	
+
 }

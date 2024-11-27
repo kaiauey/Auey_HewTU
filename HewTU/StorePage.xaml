@@ -3,66 +3,196 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HewTU.StorePage"
              Title="Hew TU">
-    
-    <Grid>
-        <Grid.RowDefinitions>
-                        <RowDefinition  Height="*"></RowDefinition>
-                        <RowDefinition  Height="2*"></RowDefinition>
-                </Grid.RowDefinitions>
-                <BoxView Grid.Row="0" BackgroundColor="FloralWhite"></BoxView>
-                <BoxView Grid.Row="1" BackgroundColor="#FFFBD0EB"></BoxView>
 
-       
-        
-    <VerticalStackLayout Spacing="10" Padding="20">
-        <Border StrokeShape="RoundRectangle 20">
-            <SearchBar Placeholder="What would you like to eat?" BackgroundColor="#FFFFFAB2"></SearchBar>
-        </Border>
+    <ScrollView>
+        <VerticalStackLayout Spacing="10"
+                             Padding="10">
 
-        <Grid ColumnDefinitions="*,*"></Grid>
-            <Label Grid.Column="1" Text="See More >" TextColor="gray" TextDecorations="Underline" HorizontalOptions="End" VerticalOptions="End"></Label>
+            <!-- Header Section -->
+            <VerticalStackLayout Padding="30, 20">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Good Morning,&#10;"
+                                  TextColor="Black"
+                                  FontFamily="Palatino"
+                                  FontSize="25"
+                                  FontAttributes="Bold"/>
+                            <Span Text="Dx212&#10;"
+                                  TextColor="#FFA0148B"
+                                  FontFamily="Palatino"
+                                  FontSize="25"
+                                  FontAttributes="Bold"/>
+                            <Span Text="Location > CITU Thammasat (TPC);"
+                                  TextColor="#FF585252"
+                                  FontSize="15"
+                                  FontAttributes="Italic"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </VerticalStackLayout>
 
-        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*" RowSpacing="20" ColumnSpacing="20" Padding="20">
-            <Border Grid.Column="0" Grid.Row="0" StrokeShape="RoundRectangle 20"
-                                    StrokeThickness="0"
-                                    FlexLayout.Basis="50%"
-                                    BackgroundColor="#FFFFFAB2"
-                                    VerticalOptions="End"
-                                    HorizontalOptions="Start">
-                                    
-                    <ImageButton Source="dotnet_bot"></ImageButton>
-            </Border>
+            <!-- Special Offer Section -->
+            <VerticalStackLayout Padding="20, 0"
+                                 Spacing="5">
+                <Border StrokeShape="RoundRectangle 20"
+                        StrokeThickness="0"
+                        BackgroundColor="#FFFFFAB2"
+                        VerticalOptions="Start"
+                        Padding="20">
+                    <Grid ColumnDefinitions="*,*"
+                          ColumnSpacing="50">
+                        <VerticalStackLayout Grid.Column="0"
+                                             Spacing="10">
+                            <Label Text="Special Offer"
+                                   TextColor="DarkRed"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="Center"/>
+                            <Label Text="Enjoy deals of up to 50% Off"/>
+                            <Button Text="Get it now"
+                                    FontSize="15"
+                                    BackgroundColor="HotPink"
+                                    TextColor="White"
+                                    FontAttributes="Bold"
+                                    CornerRadius="20"/>
+                        </VerticalStackLayout>
+                        <Image Grid.Column="1"
+                               Source="coupon.png"
+                               HeightRequest="140"
+                               WidthRequest="140"/>
+                    </Grid>
+                </Border>
+                <SearchBar Placeholder="What would you like to eat?"
+                           BackgroundColor="#FFFFFAB2"
+                           CancelButtonColor="Red"
+                           TextChanged="OnSearchTextChanged"/>
+                <Label Text="See More >"
+                       FontFamily="Palatino"
+                       TextColor="gray"
+                       TextDecorations="Underline"
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+            </VerticalStackLayout>
 
-            <Border Grid.Column="0" Grid.Row="1" StrokeShape="RoundRectangle 20"
-                                    StrokeThickness="0"
-                                    FlexLayout.Basis="50%"
-                                    BackgroundColor="#FFFFFAB2"
-                                    VerticalOptions="End"
-                                    HorizontalOptions="Start">
-                                    
-                    <ImageButton Source="dotnet_bot"></ImageButton>
-            </Border>
+            <!-- Product Menu Section -->
+            <Grid ColumnDefinitions="*,*"
+                  RowDefinitions="Auto,Auto"
+                  RowSpacing="10"
+                  ColumnSpacing="10"
+                  Padding="30, 5, 30, 0">
 
-            <Border Grid.Column="1" Grid.Row="0" StrokeShape="RoundRectangle 20"
-                                    StrokeThickness="0"
-                                    FlexLayout.Basis="50%"
-                                    BackgroundColor="#FFFFFAB2"
-                                    VerticalOptions="End"
-                                    HorizontalOptions="Start">
-                                    
-                    <ImageButton Source="dotnet_bot"></ImageButton>
-            </Border>
 
-            <Border Grid.Column="1" Grid.Row="1" StrokeShape="RoundRectangle 20"
-                                    StrokeThickness="0"
-                                    FlexLayout.Basis="50%"
-                                    BackgroundColor="#FFFFFAB2"
-                                    VerticalOptions="End"
-                                    HorizontalOptions="Start">
-                                    
-                    <ImageButton Source="dotnet_bot"></ImageButton>
-            </Border>
-        </Grid>
-    </VerticalStackLayout>
-    </Grid>
+
+                <!-- Bubble Tea -->
+                <Border Grid.Row="0"
+                        Grid.Column="0"
+                        StrokeShape="RoundRectangle 20"
+                        BackgroundColor="#FFFFFAB2">
+                    <CollectionView ItemsSource="{Binding Stores}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Spacing="5"
+                                             HorizontalOptions="Center">
+                                    <ImageButton Source="chanom.JPG"
+                                                 HeightRequest="140"
+                                                 WidthRequest="140"
+                                                 Padding="10"
+                                                 Command="{Binding OnItemTappedCommand}"
+                                                 Clicked="NavigateToNewMenu"/>
+                                    <Label Text="{Binding Name}"
+                                           FontFamily="Palatino"
+                                           TextColor="#FF110000"
+                                           FontSize="18"
+                                           Padding="10"
+                                           HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Border>
+
+                <!-- Steak -->
+                <Border Grid.Row="0"
+                        Grid.Column="1"
+                        StrokeShape="RoundRectangle 20"
+                        BackgroundColor="#FFFFFAB2">
+                    <CollectionView ItemsSource="{Binding Stores}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Spacing="5"
+                                             HorizontalOptions="Center">
+                                    <ImageButton Source="steak.JPG"
+                                                 HeightRequest="140"
+                                                 WidthRequest="140"
+                                                 Padding="10"
+                                                 Clicked="NavigateToSteakMenu"/>
+                                    <Label Text="{Binding Name}"
+                                           FontFamily="Palatino"
+                                           TextColor="#FF110000"
+                                           FontSize="18"
+                                           Padding="10"
+                                           HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Border>
+
+                <!-- Cake Shop -->
+                <Border Grid.Row="1"
+                        Grid.Column="0"
+                        StrokeShape="RoundRectangle 20"
+                        BackgroundColor="#FFFFFAB2">
+                    <CollectionView ItemsSource="{Binding Stores}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Spacing="5"
+                                             HorizontalOptions="Center">
+                                    <ImageButton Source="cake.jpg"
+                                                 HeightRequest="140"
+                                                 WidthRequest="140"
+                                                 Padding="10"
+                                                 Clicked="NavigateToCakeMenu"/>
+                                    <Label Text="{Binding Name}"
+                                           FontFamily="Palatino"
+                                           TextColor="#FF110000"
+                                           FontSize="18"
+                                           Padding="10"
+                                           HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Border>
+
+                <!-- Mala -->
+                <Border Grid.Row="1"
+                        Grid.Column="1"
+                        StrokeShape="RoundRectangle 20"
+                        BackgroundColor="#FFFFFAB2">
+                    <CollectionView ItemsSource="{Binding Stores}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Spacing="5"
+                                             HorizontalOptions="Center">
+                                    <ImageButton Source="mala.jpg"
+                                                 HeightRequest="140"
+                                                 WidthRequest="140"
+                                                 Padding="10"
+                                                 Clicked="NavigateToMalaMenu"/>
+                                    <Label Text="{Binding Name}"
+                                           FontFamily="Palatino"
+                                           TextColor="#FF110000"
+                                           FontSize="18"
+                                           Padding="10"
+                                           HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Border>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

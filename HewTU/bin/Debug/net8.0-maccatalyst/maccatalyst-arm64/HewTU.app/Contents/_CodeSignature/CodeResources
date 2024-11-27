@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		ngfA4HZOWBqnw/Cbw2IKDsLBvCw=
+		44ZfPx4EZOt31mu+saRKYkJ34EE=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -28,9 +28,33 @@
 		<data>
 		l6zTQNlyX+fCxCnUBWFv8uYQ8Tw=
 		</data>
+		<key>Resources/app2024-243ce-firebase-adminsdk-f5r6q-c99e90fe4c.json</key>
+		<data>
+		bwem8hurCWy1osau/mSFDB4iydw=
+		</data>
+		<key>Resources/app2024-243ce-firebase-adminsdk-f5r6q-ebfc85a96a.json</key>
+		<data>
+		HbaYW69NPnhv6hK3kB25Vp0+kN8=
+		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
 		aMzKOgohzGAv/lLBBlKjq/Ct6ig=
+		</data>
+		<key>Resources/cake.jpg</key>
+		<data>
+		EGTuCNki80uCdJwNk5IPyFe871Q=
+		</data>
+		<key>Resources/chanom.jpg</key>
+		<data>
+		FDRELZxRchgz+KiVlOk20fG+DXE=
+		</data>
+		<key>Resources/check.png</key>
+		<data>
+		0uULvDG5oL4WgcFwxWDrGD0+i3w=
+		</data>
+		<key>Resources/coupon.png</key>
+		<data>
+		GtQpxcFvI07TXaXl2lWpsTuS3qk=
 		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
@@ -44,25 +68,170 @@
 		<data>
 		Zt+VE+uuJQUze/d9zd3r+NdrtDw=
 		</data>
+		<key>Resources/flower_icon.jpg</key>
+		<data>
+		5UOixhi/vNXdqV0Ba01+YLjafBk=
+		</data>
+		<key>Resources/mala.jpg</key>
+		<data>
+		J47EBIPqgroRCEGeEru3TzNuom8=
+		</data>
 		<key>Resources/steak.jpeg</key>
 		<data>
 		LWd31IX7j61AvNJSPPcFfgWoQM4=
 		</data>
+		<key>Resources/steak.jpg</key>
+		<data>
+		fSsajThJWQKJBRWPdD+4WfjnVBA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/CommunityToolkit.Mvvm.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8ni2zfKv8v+yfwHYPIirGvVA1FtBEpJ082fuvGAawAs=
+			</data>
+		</dict>
+		<key>MonoBundle/Firebase.Auth.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8wzX5/+/3EiKFONS2huvqRGmImnZS5NaBYwAX7Bby1g=
+			</data>
+		</dict>
+		<key>MonoBundle/Firebase.Database.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hmHipw26ZXlw5pHYOLH2YMUBJbacNyDUK/EIW8ZSNeY=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Api.CommonProtos.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H+eSxkzq5oCMYmoiaUiMkP2/bJ5/A/dnvhzPzj8XUp4=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Api.Gax.Grpc.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vLDIptqZAnnSBQ0s+toGmkg4//Da7KFnvFaTZxvUXEY=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Api.Gax.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0qMwQ1M8p+sTRA+HgcfSBCnhm0PHKNTig0aRCSkiRxI=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Apis.Auth.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G24C65muzwkuEpP8+RHUf3xZD2ujfhP+Qy2JeGr0DYM=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Apis.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dNE25N1A2gUvbHD9Rd2JVaRCjbGL/GzfeIFSVCoiUHU=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Apis.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qzj1baTY8jJw4+Ib7WyVJD7nXlXg+KQqtRD3pJGbV1k=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Cloud.Firestore.V1.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v+YRz5tcCUGJX6ASu7AAIsubuHCHfVY9Y3dKjbyn+UI=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Cloud.Firestore.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8jFnJdgFS466FkC0Z0alqyBvbolBNiTpF1yAYeJdiaw=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Cloud.Location.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m7JYtB0ECmBG7uqi+X3G0VbPyo/ShoK/uLbfTPmGxIc=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.LongRunning.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jKNzQ6cTvHmlEDzYGUqN4GCDC6QC9FRwzvyxe6W0ccE=
+			</data>
+		</dict>
+		<key>MonoBundle/Google.Protobuf.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lAaEK6Pl7c5bGgq/sm9tkaqim9Tr2wC4vMa016McVUU=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Auth.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8nsGqzPbfa7D4PLW9dh7H9yR+i5FgysdER4MLP6Rhbg=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Core.Api.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q9Y1s0r5jpKX2K4kf2EdQwqADxNUHXsOuKX54WSmxDs=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Net.Client.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VScmGorhCnBXR6jlfClw/wGrdhSwGG+iLZ6gp+Sy1WY=
+			</data>
+		</dict>
+		<key>MonoBundle/Grpc.Net.Common.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2EDijbMiut6fGj8x9flB//MOJwrWorUjtbGdWHDA/X4=
+			</data>
+		</dict>
 		<key>MonoBundle/HewTU.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			efM/VuI7O/AuYJ7fboO8LkuwHW5RSUoECRNHV6oIbfQ=
+			OsBFZSxJoDjyNFdnIkYOGfRLf1SZ7WautG1nzmNhQKQ=
 			</data>
 		</dict>
 		<key>MonoBundle/HewTU.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BNvOUoZOgRYCA3jT43MNxLNpGZR0cvLLVYy8IFeBD1E=
+			TQEYGlp/db55WGtg2adaGoWgzGvIiVSaBTHxO8Fy2GE=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Bcl.AsyncInterfaces.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VwXSRQctPreEAFR7MhR9u24siwK6i9p2cpeY9e/erss=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -240,6 +409,20 @@
 			d8TldomKIUyoyFswwMpbwauKjTYeAhjVYiE3T8U5R5g=
 			</data>
 		</dict>
+		<key>MonoBundle/Newtonsoft.Json.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IsZJ91/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=
+			</data>
+		</dict>
+		<key>MonoBundle/PropertyChanged.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jJ75FJff71C8+s0VRNdFlIdM9sJzSZA/AnpKdiVX6tM=
+			</data>
+		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -252,6 +435,13 @@
 			<key>hash2</key>
 			<data>
 			imZuEldpQJXcNIuSsFhfZcZ2aQ3kHr6Wlbmv9qQhtYo=
+			</data>
+		</dict>
+		<key>MonoBundle/System.CodeDom.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TTPimGqE1EYIU+K5jTobqfiqKVD3+hL/atLhWkvM/Rg=
 			</data>
 		</dict>
 		<key>MonoBundle/System.Collections.Concurrent.dll</key>
@@ -604,6 +794,13 @@
 			QaYWC5O1mCDRxBbNQKkyfdWfADdaIYG1LsaCaLpYD8g=
 			</data>
 		</dict>
+		<key>MonoBundle/System.Linq.Async.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FJdXpBE65hAsQl8UaafMFN6yhjXpTLyeBAT15NxRgAE=
+			</data>
+		</dict>
 		<key>MonoBundle/System.Linq.Expressions.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -630,6 +827,13 @@
 			<key>hash2</key>
 			<data>
 			28pvbyZ02DV3+EZa3bqGUGxpr1cMuxuFCyHCeIpLTlw=
+			</data>
+		</dict>
+		<key>MonoBundle/System.Management.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NgVrJA9Ii32mNyBYXYT5MYPPe9Bdpo1TQBUevdheTYg=
 			</data>
 		</dict>
 		<key>MonoBundle/System.Memory.dll</key>
@@ -833,6 +1037,34 @@
 			<key>hash2</key>
 			<data>
 			IBFmdUaxfRkz0PvyjKm2Wl3Gqr8tSJslwSJR9C3TGvk=
+			</data>
+		</dict>
+		<key>MonoBundle/System.Reactive.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SlQecVhLzPVZ02AhrGXZTVaeAWhIgKnlWh5Erv8kVA4=
+			</data>
+		</dict>
+		<key>MonoBundle/System.Reactive.Interfaces.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9Gi1cfBJn+W1EOL94PRE6bAhg1/u1p1h1cGBHxnNd9I=
+			</data>
+		</dict>
+		<key>MonoBundle/System.Reactive.Linq.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DOz/FcQPHTLGQT4QjCQOof56/gkQcM9qAQE4NCKdC30=
+			</data>
+		</dict>
+		<key>MonoBundle/System.Reactive.PlatformServices.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vtQwSsxhyZ8zHgwBj+FlUKGur4VhhFzBND+h7XZKDPA=
 			</data>
 		</dict>
 		<key>MonoBundle/System.Reflection.DispatchProxy.dll</key>
@@ -1134,6 +1366,13 @@
 			<key>hash2</key>
 			<data>
 			G0gik8s41tn4a3dUPFElJ9vy0GsAFMn4L1BuQPgl2PM=
+			</data>
+		</dict>
+		<key>MonoBundle/System.ServiceModel.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gm0yxjUYTmteXzJofvN7EGb0FMl15HAWCiR7wJ9pn6s=
 			</data>
 		</dict>
 		<key>MonoBundle/System.ServiceProcess.dll</key>
@@ -1581,7 +1820,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZlFfGnlC3L3W79Mk7oFQBLObWxc/8JPosJSOWBQDNpc=
+			33fLfq8F8YJzr1dQWdtzxvqXTqbGOq2MCFrtTEGQsZM=
 			</data>
 		</dict>
 		<key>MonoBundle/sk/Microsoft.Maui.Controls.resources.dll</key>
@@ -1658,7 +1897,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAZ8anQTQzlRY6Bpqr0iE9VWugiP8r8BGqdWqqusXww=
+			ZX6qvHIfeagKHR7slI4AocJm46LMUdwMgMLVtq5w3QY=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
@@ -1689,11 +1928,53 @@
 			zZ6xNTU/7QcbbzXnA99D+QcfLbMd4ztJw70f5Pg0pyc=
 			</data>
 		</dict>
+		<key>Resources/app2024-243ce-firebase-adminsdk-f5r6q-c99e90fe4c.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0kfUcMqAI20fjTabzFVZ/8jDDF/Ww77XZh7PAoQaU/o=
+			</data>
+		</dict>
+		<key>Resources/app2024-243ce-firebase-adminsdk-f5r6q-ebfc85a96a.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A+lUb64QcGAcARCaHiM+TwH0GX/x6b599C1clvZdblo=
+			</data>
+		</dict>
 		<key>Resources/appicon.icns</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			/pivYVdUHD7ChxCYuFQd16qpZbftUsb/YE4NjSFPMfQ=
+			</data>
+		</dict>
+		<key>Resources/cake.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ctW5tKrrj5GIYDzpqToPY4RjONk14cRHiSuhEMo+0XE=
+			</data>
+		</dict>
+		<key>Resources/chanom.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tOqrYkbs9wygK1Ib29dRrGnReBew82SrynhoWsOWwmQ=
+			</data>
+		</dict>
+		<key>Resources/check.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CPvmure2C4FpQrHAEBIksJX0fYAky5d9ojGyfVfDocY=
+			</data>
+		</dict>
+		<key>Resources/coupon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hq/bkusEjdjBsMamxJyqhkaHJ99XZvLYFR/S/bI0VVA=
 			</data>
 		</dict>
 		<key>Resources/dotnet_bot.png</key>
@@ -1717,11 +1998,32 @@
 			Up4t4C3+oRoTqJRc+zJSfhbhdg8R3zWbHkE+G9N4B9U=
 			</data>
 		</dict>
+		<key>Resources/flower_icon.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zHND8pmwU7pIVpzRvi48oqj9Au8gSJC61Yi2aO14ZB8=
+			</data>
+		</dict>
+		<key>Resources/mala.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			apadNHK515r3zX79dWm4IDH71hoJIWF9Ga3nPrI7QA4=
+			</data>
+		</dict>
 		<key>Resources/steak.jpeg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			oLH3DnbIZ5vfKfPdpSmf+pGq2PmzO7tFM41TydIiKFk=
+			</data>
+		</dict>
+		<key>Resources/steak.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			szUAR0U1UUyaRaQuG/E5/Iyf4UEJd8bgHhT/e6nm0M8=
 			</data>
 		</dict>
 	</dict>

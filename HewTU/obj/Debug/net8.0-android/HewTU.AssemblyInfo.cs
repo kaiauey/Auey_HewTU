@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HewTU")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2be1a50e5dbacc156367efc62f9b71a9c7219069")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6aa881e8695c44b75e1b10e210ed156413b27510")]
 [assembly: System.Reflection.AssemblyProductAttribute("HewTU")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HewTU")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
